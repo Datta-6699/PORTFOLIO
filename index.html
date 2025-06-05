@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SRI DATTA PORTFOLIO</title>
+        <link href="style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/681cfc2e33.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="RESOURCES/datta.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-x" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hello I'am Sri Datta Undavalli<br><span>Java Full Stack Developer</span></h1>
+                    <p>Motivated and detail-oriented fresher aiming to start a career as a Java Full Stack Developer. 
+                        Eager to contribute to innovative projects using Java, Spring Boot, HTML, CSS, JavaScript, 
+                        and databases, while continuously learning and improving my skills.</p>
+                </div>
+            </div>
+        </div>
+        <!------------------about---------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="RESOURCES/Dattaphoto.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I'm a final-year M.C.A student at S.R.M Institute of Science and Technology, passionate about turning 
+                        ideas into impactful digital solutions. With a strong foundation in Java Full Stack Web Development,UI/UX design and data 
+                        analysis, I've worked on multiple academic and personal projects that reflect my curiosity,
+                        problem-solving mindset, and commitment to learning.<br>I'm currently seeking opportunities where I can apply my 
+                        skills, grow alongside experienced professionals, and contribute to meaningful work. Whether it's building clean 
+                        user interfaces, analyzing complex datasets, or collaborating in a team setting, I bring energy, focus, and a 
+                        willingness to adapt.
+                        <br>Let's connect—I'd love to be part of something innovative!</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <section>
+                                <ul class="some1">
+                                    <li >Java</li><br>
+                                    <li >HTML</li><br>
+                                    <li >DSA</li><br>
+                                </ul>
+                                <ul class="some2">
+                                    <li >Python</li><br>
+                                    <li >CSS</li><br>
+                                </ul>
+                                 <ul class="some3">
+                                    <li >MySQL</li><br>
+                                    <li >JavaScript</li><br>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>M.C.A</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2024-2026
+                                    <br>S.R.M Institute of Science and Technology</li>
+                                <li><span>B.Sc (Computer Science)</span> &nbsp;&nbsp;2021-2024
+                                    <br>Government Degree College</li>
+                                <li><span>Pre-University</span>&nbsp;&nbsp;&nbsp;&nbsp;2018-2020
+                                    <br>Sri Chaitanya Junior College</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------------services------------ -->
+         <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>lorem ipsum dolor sit amet consectetuer adipiscing elit. Sed nulla nibh, 
+                        tincidunt sit amet sapien quis.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>lorem ipsum dolor sit amet consectetuer adipiscing elit. Sed nulla nibh, 
+                        tincidunt sit amet sapien quis.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>lorem ipsum dolor sit amet consectetuer adipiscing elit. Sed nulla nibh, 
+                        tincidunt sit amet sapien quis.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <!-- --------------------Portfolio----------------------------- -->
+
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <h2>TIC-TAC-TOE</h2>
+                        <img src="RESOURCES/TIC-TAC-TOE.jpg">
+                        <div class="layer">
+                            <h3>Tic-Tac-Toe</h3>
+                            <p>A simple, text-based Tic Tac Toe game built using core Java. This project demonstrates 
+                            fundamental programming concepts such as control flow, loops, arrays, and object-oriented 
+                            design. The game allows two players to take turns, checks for winning conditions, handles 
+                            invalid inputs, and declares the result (win or draw) accordingly.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <h2>Employee Data Management</h2>
+                        <img src="RESOURCES/EMS.webp">
+                        <div class="layer">
+                            <h3>Employee Data Management</h3>
+                            <p>A Java-based application designed to manage employee records through a simple console 
+                            interface. This project demonstrates effective use of object-oriented programming concepts 
+                            to create, update, delete, and view employee information.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <h2>Food Delivery App</h2>
+                        <img src="RESOURCES/Food-Delivery.jpg">
+                        <div class="layer">
+                            <h3>Food Delivery App</h3>
+                            <p>A full-stack web application that allows users to browse restaurants, view menus, place 
+                            food orders, and track deliveries. The system supports customer, admin, and delivery 
+                            personnel modules with secure login and real-time order status updates.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+         </div>
+
+         <!-- -----------------------contact-------------------------- -->
+         <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>undavallisridatta@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>8985266846</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/share/1AiG7PbwZu/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://x.com/Sri_Datta_6699?t=DWW4zwmF50jwix03uzsZ_Q&s=09"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.instagram.com/dattaundavalli?igsh=MXZsYzJvczNuMW85cA=="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/sridatta6699?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="RESOURCES/Sri Datta Resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Sri Datta <i class="fa-solid fa-heart"></i></p>
+            </div>
+         </div>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links")
+            var tabcontents = document.getElementsByClassName("tab-contents")
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link")
+                document.getElementById(tabname).classList.add("active-tab")
+            }
+
+        </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>        
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbwDMmowuoVzmc58RLwUU4mIYly19coFJpyCxyyfm-6wJf6QJTq2TyUDOgTTD1ds3mUv/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+</script>
+
+    </body>
+</html>
